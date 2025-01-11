@@ -1,7 +1,7 @@
-package HeadFirstDesignPattern.Ducks;
+package HeadFirstDesignPattern.DuckSimulator.Ducks;
 
-import HeadFirstDesignPattern.FlyBehaviour;
-import HeadFirstDesignPattern.QuackBehaviour.QuackBehaviour;
+import HeadFirstDesignPattern.DuckSimulator.FlyBehaviour.FlyBehaviour;
+import HeadFirstDesignPattern.DuckSimulator.QuackBehaviour.QuackBehaviour;
 
 public abstract class Duck {
     public FlyBehaviour flyObj = null;
