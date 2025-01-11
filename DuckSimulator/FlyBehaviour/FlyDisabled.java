@@ -1,4 +1,4 @@
-package HeadFirstDesignPattern;
+package HeadFirstDesignPattern.DuckSimulator.FlyBehaviour;
 
 public class FlyDisabled implements FlyBehaviour {
 

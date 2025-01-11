@@ -1,4 +1,4 @@
-package HeadFirstDesignPattern.QuackBehaviour;
+package HeadFirstDesignPattern.DuckSimulator.QuackBehaviour;
 
 public class QuackWithoutSound implements QuackBehaviour{
 
