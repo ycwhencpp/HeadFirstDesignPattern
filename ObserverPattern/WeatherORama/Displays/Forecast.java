@@ -1,12 +1,21 @@
 package HeadFirstDesignPattern.ObserverPattern.WeatherORama.Displays;
 
 import HeadFirstDesignPattern.ObserverPattern.WeatherORama.DisplayType.DisplayType;
+import HeadFirstDesignPattern.ObserverPattern.WeatherORama.Observable.Observable;
 import HeadFirstDesignPattern.ObserverPattern.WeatherORama.Observers.Observer;
 
 public class Forecast implements Observer, DisplayType {
     float temp;
     float pressure;
     float humidity;
+
+    Observable obs;
+
+    public Forecast(Observable obs) {
+        this.obs = obs;
+        obs.add(this);
+    }
+
 
 
     @Override
