@@ -40,10 +40,11 @@ public class Forecast implements Observer, DisplayType {
     }
 
     @Override
-    public void update(float[] args){
+    public void update(float ...args){
         this.humidity = args[0];
         this.temp = args[1];
         this.pressure = args[2];
+        this.display();
 
     }
 }
