@@ -1,5 +1,5 @@
 package HeadFirstDesignPattern.ObserverPattern.WeatherORama.Observers;
 
 public interface Observer{
-    public void update();
+    public void update(float[] args);
 }
